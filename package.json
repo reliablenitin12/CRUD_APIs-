@@ -4,7 +4,7 @@
   "description": "CRUD APIs for TODO with JWT Auth",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/reliablenitin12/CRUD_APIs-#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
   }
 }
